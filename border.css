@@ -1,0 +1,17 @@
+h1{
+    border-top-style:dotted;
+    border-bottom-style:dotted;
+    border-left-style:double;
+    border-left-width:20px;
+    border-right-style:double;
+    border-right-width:20px;
+    border-right-color:chocolate;
+    border-left-color:chocolate;
+}
+p{
+    border-style:double ;
+    padding:10px;
+    background-color:aqua;
+    border-color:yellow;
+    border-radius:50px;
+}

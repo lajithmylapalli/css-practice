@@ -1,0 +1,39 @@
+#box{
+    border:1px solid;
+    width:250px;
+    height:250px;
+    font-size:225px;
+    text-align:center;
+    background-color: brown;
+    color:pink;
+
+    animation: opasity;
+    animation-iteration-count:infinite;
+    animation-delay:0s;
+    animation-duration:3s;
+}
+
+@keyframes hi{
+    from{margin-left:50%}
+    to{margin-left:0%}
+}
+@keyframes myscale{
+    0%{transform:scale(1,1);}
+    20%{transform:scale(2,2);}
+    50%{transform:scale(3,3);}
+    70%{transform:scale(2,2);}
+    100%{transform:scale(1,1);}
+}
+@keyframes mycolors{
+    20%{background-color:aqua;color:brown;}
+    40%{background-color:brown;color:pink;}
+    60%{background-color:pink;color:blue;}
+    80%{background-color:blue;color:coral;}
+    100%{background-color:coral;color:aqua;}
+}
+@keyframes rot{
+    100%{transform:rotatex{360deg};}
+}
+@keyframes opasity{
+    50%{opacity: 0;}
+}

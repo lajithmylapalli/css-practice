@@ -1,0 +1,17 @@
+body{
+    background-color:blue;
+}
+h1{
+    color:aqua;
+    text-decoration: underline lightgray;
+    font-family:cursive;
+    background-color:lightslategray;
+}
+p{
+    text-decoration: pink dotted underline;
+    font-style:italic;
+    font-weight:bold;
+    color:aqua;
+    background-color:grey;
+    font-size:medium;
+}

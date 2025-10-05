@@ -1,0 +1,14 @@
+body{
+    background:url(nature.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+h1{
+    background:linear-gradient(to right,skyblue,pink);
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+}

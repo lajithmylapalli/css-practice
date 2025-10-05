@@ -1,0 +1,23 @@
+.b1{
+    width:100px;
+    height:100px;
+    text-align: center;
+    color:aqua;
+    background-color:blue;
+    float:left;
+}
+.b2{
+    width:100px;
+    height:100px;
+    background:url(penguin.jpg);
+    background-position:center;
+    background-size:cover;
+    float:left;
+}
+.b3{
+    width:100px;
+    height:100px;
+    background:url(nature.jpg);
+    background-size:cover;
+    float:right;
+}

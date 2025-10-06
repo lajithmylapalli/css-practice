@@ -1,0 +1,12 @@
+input[type=checkbox]{
+    accent-color:aqua;
+}
+input[type=radio]{
+    accent-color:yellow;
+}
+input[type=range]{
+    accent-color:pink;
+}
+progress{
+    accent-color:hsl(92, 81%, 77%);
+}

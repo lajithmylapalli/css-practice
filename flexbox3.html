@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FlexBox3</title>
+        <style>
+            .container-1{
+             display:flex;
+                /*   align-items:center;*/
+            }
+            .container-1 div{
+                border:1px #ccc solid;
+                padding:10px;
+            }
+            .b1{
+                flex:2;
+                order:3;
+            }
+            .b2{
+                flex:2;
+                order:1;
+            }
+            .b3{
+                flex:1;
+                order:2;
+            }
+            .container-2{
+                display:flex;
+                /*justify-content:flex-end;
+                justify-content:center;
+                justify-content:space-between;*/
+                justify-content:space-around;
+            }
+            .container-2 div{
+                border:1px #ccc solid;
+                justify-content:flex-end;
+            }
+            .b4{
+                flex-basis:27px;
+                
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container-1">
+          <div class="b1"><h2>
+            BOX 1
+          </h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, ipsum inventore voluptatum consequuntur ducimus, suscipit labore praesentium reiciendis corrupti sunt eius nam laborum sint voluptate? Nisi quos corrupti beatae? Pariatur.
+        </p></div>
+        <div class="b2"><h2>
+            BOX 2
+          </h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, ipsum inventore voluptatum consequuntur ducimus, suscipit labore praesentium reiciendis corrupti sunt eius nam laborum sint voluptate? Nisi quos corrupti beatae? Pariatur.
+        </p></div>
+        <div class="b3"><h2>
+            BOX 3
+          </h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, ipsum inventore voluptatum consequuntur ducimus, suscipit labore praesentium reiciendis corrupti sunt eius nam laborum sint voluptate? Nisi quos corrupti beatae? Pariatur.
+        </p></div>  
+        </div>
+        <div class="container-2">
+          <div class="b4"><h2>
+            BOX 1
+          </h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, ipsum inventore voluptatum consequuntur ducimus, suscipit labore praesentium reiciendis corrupti sunt eius nam laborum sint voluptate? Nisi quos corrupti beatae? Pariatur.
+        </p></div>
+        <div class="b4"><h2>
+            BOX 2
+          </h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, ipsum inventore voluptatum consequuntur ducimus, suscipit labore praesentium reiciendis corrupti sunt eius nam laborum sint voluptate? Nisi quos corrupti beatae? Pariatur.
+        </p></div>
+        <div class="b4"><h2>
+            BOX 3
+          </h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, ipsum inventore voluptatum consequuntur ducimus, suscipit labore praesentium reiciendis corrupti sunt eius nam laborum sint voluptate? Nisi quos corrupti beatae? Pariatur.
+        </p></div>  
+        </div>
+    </body>
+</html>

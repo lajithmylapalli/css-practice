@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FlexBox2</title>
+        <style>
+            .r{
+                display:flex;
+                /* align-items:flex-end;
+                align-items:flex-start;
+                align-items:center;
+                flex-direction:column;*/
+                align-items:center;
+            }
+            .r div{
+                border:1px #ccc solid;
+                padding:10px;
+            }
+            .b1{
+                flex:1;
+                order:3;
+                
+            }
+            .b2{
+                flex:2;
+                order:1;
+               
+            }
+            .b3{
+                flex:1;
+                order:2;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="r">
+          <div class="b1"><h2>
+            BOX 1
+          </h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, ipsum inventore voluptatum consequuntur ducimus, suscipit labore praesentium reiciendis corrupti sunt eius nam laborum sint voluptate? Nisi quos corrupti beatae? Pariatur.
+        </p></div>
+        <div class="b2"><h2>
+            BOX 2
+          </h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, ipsum inventore voluptatum consequuntur ducimus, suscipit labore praesentium reiciendis corrupti sunt eius nam laborum sint voluptate? Nisi quos corrupti beatae? Pariatur.
+        </p></div>
+        <div class="b3"><h2>
+            BOX 3
+          </h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, ipsum inventore voluptatum consequuntur ducimus, suscipit labore praesentium reiciendis corrupti sunt eius nam laborum sint voluptate? Nisi quos corrupti beatae? Pariatur.
+        </p></div>  
+        </div>
+    </body>
+</html>
